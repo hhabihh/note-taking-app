@@ -1,0 +1,15 @@
+<div class="container-fluid">
+    <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4">
+      <a href="/dashboard" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 ms-3 text-decoration-none fw-bold fs-2">
+        <p style="color: #662d91; font-family: 'Courgette'; font-weight: 1000; font-size: larger;">JotNote</p>
+      </a>
+
+      <form class="nav col-12 col-md-auto flex-full mb-2 justify-content-center mb-md-0" role="search" method="POST" action="/dashboard/search">
+        <input type="search" name="searchTerm" class="form-control border-primary" placeholder="Search..." aria-label="Search">
+      </form>
+
+      <div class="col-md-3 text-end me-5">
+        <a href="/logout" type="button" class="btn btn-outline-primary">Logout</a>
+      </div>
+    </header>
+  </div>
